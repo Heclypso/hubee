@@ -3,8 +3,8 @@ import styles from './Navbar.module.css'
 
 const Navbar = () => {
 
-    const [menuAberto, setMenuAberto] = useState(false)
-    const [itensEscondidos, setItensEscondidos] = useState(true)
+    const [menuAberto, setMenuAberto] = useState<boolean>(false)
+    const [itensEscondidos, setItensEscondidos] = useState<boolean>(true)
 
     return (
         <nav className={styles.nav}>
