@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import styles from './ProductFilter.module.css'
 
-const ProductFilter = () => {
+const ProductFilter = (): React.JSX.Element => {
     const [larguraDaTela, setLarguraDaTela] = useState<number>(window.innerWidth)
 
     useEffect(() =>{

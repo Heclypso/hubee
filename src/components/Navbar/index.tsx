@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import styles from './Navbar.module.css'
 
-const Navbar = () => {
+const Navbar = (): React.JSX.Element => {
 
     const [menuAberto, setMenuAberto] = useState<boolean>(false)
     const [itensEscondidos, setItensEscondidos] = useState<boolean>(true)

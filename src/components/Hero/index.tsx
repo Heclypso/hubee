@@ -1,7 +1,7 @@
 import '../../global.css';
 import styles from './Hero.module.css';
 
-const Hero = () => {
+const Hero = (): React.JSX.Element => {
 
     return (
         <div className={styles.hero}>
