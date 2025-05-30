@@ -23,15 +23,37 @@
     max-width: 669px;
 }
 
+.product__tag-wrapper {
+    width: 100%;
+}
+
 .product__tag {
-    width: 102px;
     background-color: #A4CFFF;
     font-family: "Work Sans", sans-serif;
     font-size: 14px;
     color: #6180A3;
     padding: 4px 13px;
     border-radius: 5px;
-    margin: 8px 0;
+}
+
+.product__tag--purple {
+    background-color: #D9C6F9;
+    color: #86779E;
+}
+
+.product__tag--green {
+    background-color: #E4F9B2;
+    color: #869464;
+}
+
+.product__tag--ran-out  {
+    background-color: #EAEAEA;
+    color: #979797;
+}
+
+.product__tag--pink {
+    background-color: #FEDBFF;
+    color: #A791A8;
 }
 
 .product__total-price {
