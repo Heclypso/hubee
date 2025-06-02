@@ -1,6 +1,6 @@
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
-import Line from "./components/Line"
+// import Line from "./components/Line"
 import Navbar from "./components/Navbar"
 import Product from "./components/Product"
 import ProductFilter from "./components/ProductFilter"
@@ -13,10 +13,6 @@ function App() {
       <Hero/>
       <ProductFilter/>
       <div className="container--column">
-        <Product/>
-        <Line/>
-        <Product/>
-        <Line/>
         <Product/>
       </div>
       <Footer/>
